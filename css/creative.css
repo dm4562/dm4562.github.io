@@ -24,6 +24,10 @@ hr {
     color: #fffd5a;
 }
 
+.logo {
+    margin: 10px;
+}
+
 hr.light {
     border-color: #fffd5a;
 }
@@ -38,6 +42,10 @@ a {
 a:hover,
 a:focus {
     color: #fffd5a;
+}
+
+h1 {
+    font-size: 70px;
 }
 
 h1,
@@ -167,13 +175,18 @@ aside {
 
     .navbar-default.affix .nav > li>a,
     .navbar-default.affix .nav>li>a:focus {
-        color: rgba(255, 255, 255, 0.7);;
+        color: rgba(255, 255, 255, 0.5);;
     }
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
         color: #a04dff;
     }
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header {
@@ -210,9 +223,9 @@ header .header-content .header-content-inner hr {
 
 header .header-content .header-content-inner p {
     margin-bottom: 50px;
-    font-size: 16px;
-    font-weight: 300;
-    color: rgba(255,255,255,.7);
+    font-size: 20px;
+    font-weight: 550;
+    color: rgba(255,255,255,1);
 }
 
 @media(min-width:768px) {
