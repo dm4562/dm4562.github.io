@@ -94,7 +94,7 @@
           <p class="text-faded">Solar Decathlon is an interdisciplinary competition organized by the Department of Energy where collegiate teams design and build cost efficient and sustainable solar powered houses.</p>
           <hr class="primary">
           <h3>Project Olynthus</h3>
-          <p class="text-faded">Olynthus is Georgia Tech's submission to the competition that uses modular architectural approach to tackle uneven and unplanned urban growth. It implements best design and construction principles to minimize enenrgy consumption and maximize production. Olynthus also attempts to shape resident's habits to make not only a suatainable house, but also a suatainable citizen.
+          <p class="text-faded">Olynthus is Georgia Tech's submission to the competition that uses modular architectural approach to tackle uneven and unplanned urban growth. It implements best design and construction principles to minimize enenrgy consumption and maximize production. Olynthus also attempts to shape resident's habits to make not only a sustainable house, but also a sustainable citizen.
           </p>
           <br>
           <a href="#teams" class="btn btn-primary btn-xl page-scroll">Teams</a>
@@ -112,24 +112,24 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container" id="team-container">
       <div class="row">
         <div class="col-lg-4 col-md-6 text-center">
-          <div class="service-box">
+          <div class="service-box" id="electrical-box">
             <i class="fa fa-4x fa-th-large wow bounceIn light"></i>
             <h3>Electrical</h3>
             <p class="text-muted">The team that shines.</p>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 text-center">
-          <div class="service-box">
+          <div class="service-box" id="mechanical-box">
             <i class="fa fa-4x fa-cog wow bounceIn light" data-wow-delay=".1s"></i>
             <h3>Mechanical</h3>
             <p class="text-muted">The pillars of Olynthus.</p>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 text-center">
-          <div class="service-box">
+          <div class="service-box" id="computing-box">
             <i class="fa fa-4x fa-link wow bounceIn light" data-wow-delay=".2s"></i>
             <h3>Computing</h3>
             <p class="text-muted">Bringing the house to life.</p>
@@ -138,24 +138,39 @@
       </div>
       <div class="row">
         <div class="col-lg-4 col-md-6 text-center">
-          <div class="service-box">
+          <div class="service-box" id="architecture-box">
             <i class="fa fa-4x fa-pencil wow bounceIn light" data-wow-delay=".3s"></i>
             <h3>Architecture</h3>
             <p class="text-muted">Laying the groundwork.</p>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 text-center">
-          <div class="service-box">
+          <div class="service-box" id="design-box">
             <i class="fa fa-4x fa-heart wow bounceIn light" data-wow-delay=".4s"></i>
             <h3>Design</h3>
             <p class="text-muted">Making everything look badass.</p>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 text-center">
-          <div class="service-box">
+          <div class="service-box" id="business-box">
             <i class="fa fa-4x fa-usd wow bounceIn light" data-wow-delay=".5s"></i>
             <h3>Business</h3>
             <p class="text-muted">Where the money lies.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container center-block" id="team-description-dynamic">
+      <div class="row row-centered">
+        <div class="col-lg-12 col-md-12 text-center">
+          <div class="service-box" id="dynamic-image-box">
+          </div>
+        </div>
+      </div>
+      <div class="row row-centered">
+        <div class="col-md-8 col-md-offset-2 text-center">
+          <div class="text-muted" id="dynamic-text-box">
+
           </div>
         </div>
       </div>
@@ -263,15 +278,6 @@
     </div>
   </section>
 
-  <!-- <aside class="bg-dark">
-      <div class="container text-center">
-          <div class="call-to-action">
-              <h2>Free Download at Start Bootstrap!</h2>
-              <a href="#" class="btn btn-default btn-xl wow tada">Download Now!</a>
-          </div>
-      </div>
-  </aside> -->
-
   <section class="bg-dark" id="contact_us">
       <div class="container">
           <div class="row">
@@ -305,6 +311,7 @@
 
   <!-- Custom Theme JavaScript -->
   <script src="js/creative.js"></script>
+  <script src="js/custom.js"></script>
 
 </body>
 
