@@ -32,6 +32,7 @@ $(document).ready(function() {
     $teamContainer.fadeOut('fast');
     $teamDescription.fadeIn('slow');
     element.fadeIn('slow');
+    
   };
 
   hideTeamDescription();
