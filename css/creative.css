@@ -76,6 +76,10 @@ p {
     background-color: #222;
 }
 
+.black {
+    color: #222;
+}
+
 .text-faded {
     color: rgba(255,255,255,.7);
 }
@@ -199,7 +203,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.jpg);
+    background-image: url(../img/header2.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
