@@ -49,7 +49,7 @@ a:focus {
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 60px;
 }
 
 h1,
@@ -203,7 +203,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header2-min.jpg);
+    background-image: url(../img/header.png);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
